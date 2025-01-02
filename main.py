@@ -50,7 +50,8 @@ def serve_image(index, filename):
 
 @app.route('/')
 def welcome():
-    return redirect("https://github.com/GENTA7740", code=302)
+    return "Model Flask API Bungas"
+# redirect("https://github.com/GENTA7740", code=302)
 
 @app.route('/flower', methods=['GET'])
 def get_flower():
